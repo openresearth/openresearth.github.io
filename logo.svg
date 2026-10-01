@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120">
+  <path d="M60 60 L60 8 A52 52 0 1 0 112 60 Z" fill="#EEF0EC"/>
+  <path d="M60 20 A40 40 0 0 1 100 60 L86 60 A26 26 0 0 0 60 34 Z" fill="#E6AE7F"/>
+  <path d="M60 60 L60 44 A16 16 0 0 1 76 60 Z" fill="#C4622D"/>
+  <text x="132" y="84" font-family="Sora, 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="600" letter-spacing="-3.5" fill="#EEF0EC">ore</text>
+</svg>

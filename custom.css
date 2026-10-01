@@ -1,0 +1,65 @@
+/* ore colours, taken from the logo */
+:root {
+  --ore-ink: #17252A;
+  --ore-ink-2: #22343A;
+  --ore-mantle: #E6AE7F;
+  --ore-core: #C4622D;
+  --ore-link: #9E4A1F;   /* darker clay, readable on white */
+  --ore-ground: #EEF0EC;
+}
+
+body, .rst-content, .wy-menu-vertical {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+h1, h2, h3, .rst-content .sd-card-title {
+  font-family: "Sora", "IBM Plex Sans", sans-serif;
+  letter-spacing: -0.02em;
+}
+code, pre, .rst-content code, .rst-content pre {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Sidebar */
+.wy-body-for-nav { background: var(--ore-ink); }
+.wy-nav-side, .wy-side-nav-search { background: var(--ore-ink); }
+.wy-side-nav-search .wy-dropdown > a img.logo,
+.wy-side-nav-search > a img.logo { max-width: 150px; }
+.wy-side-nav-search input[type="text"] { border-color: var(--ore-ink-2); }
+.wy-menu-vertical p.caption,
+.wy-menu-vertical header {
+  color: var(--ore-mantle);
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.12em;
+}
+.wy-menu-vertical a { color: #D9DFDD; }
+.wy-menu-vertical a:hover { background: var(--ore-ink-2); }
+.wy-nav-top { background: var(--ore-ink); }
+
+/* Page */
+.wy-nav-content-wrap { background: var(--ore-ground); }
+.wy-nav-content { background: #FFFFFF; max-width: 960px; }
+a, a:visited, .rst-content a:visited { color: var(--ore-link); }
+a:hover { color: var(--ore-ink); }
+.rst-content table.docutils { width: 100%; }
+.rst-content table.docutils td { white-space: normal; }
+
+/* Home page */
+.ore-hero { text-align: center; padding: 8px 0 0; }
+.ore-hero img { width: 96px; }
+.ore-hero + section > h1 { text-align: center; }
+.ore-tagline {
+  text-align: center;
+  margin-bottom: 28px !important;
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #3C4A4E;
+}
+.sd-card { border-radius: 12px; }
+.sd-card:hover { border-color: var(--ore-core); }
+.sd-card-title { color: var(--ore-ink); }
+
+/* Admonition used for "Next workshop" */
+.rst-content .admonition.tip { background: #FBF1E8; }
+.rst-content .admonition.tip .admonition-title { background: var(--ore-core); }
