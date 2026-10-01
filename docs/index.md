@@ -7,7 +7,7 @@
 # Open Resources for Earth Sciences
 
 ```{raw} html
-<p class="ore-tagline"> Open resources · Community built</p>
+<p class="ore-tagline"> Open resources · Community built · Free </p>
 ```
 
 **ore** is a community project that runs regular online workshops for geoscience
