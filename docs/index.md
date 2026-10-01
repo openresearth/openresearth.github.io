@@ -14,10 +14,10 @@
 students and keeps a curated library of free, open-access learning resources.
 Every page on this site is a Markdown file, and anyone can contribute.
 
-:::{admonition} Next workshop: Introduction to Ore Deposit Models
+:::{admonition} Next workshop: Introduction to Python for Geoscientists
 :class: tip
 
-[DD] October 2026 · 16:00 IST · Online · Speaker: [Speaker name]
+[DD] To be updated · 16:00 IST · Online and Everywhere · Instructor: [ ]
 
 [Workshop details](workshops/2026-10-ore-deposit-models.md) · [Register](https://forms.gle/your-form-link)
 :::
