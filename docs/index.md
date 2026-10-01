@@ -74,6 +74,7 @@ workshops/index
 :hidden:
 :caption: Resources
 
+<!--
 resources/index
 resources/ore-geology
 resources/petrology-mineralogy
@@ -83,6 +84,7 @@ resources/geophysics
 resources/remote-sensing-gis
 resources/datasets
 resources/software
+-->
 ```
 
 ```{toctree}
