@@ -30,7 +30,7 @@
 :gutter: 3
 
 :::{grid-item-card} Python for Earth Scientists
-:link: resources/ore-geology
+:link: modules/python-geoscience/index
 :link-type: doc
 Basic programming with python, numpy, matplotlib
 :::
@@ -72,9 +72,17 @@ workshops/index
 
 ```{toctree}
 :hidden:
+:caption: Learning Modules
+
+modules/python-geoscience/index
+```
+
+<!-- Resources section of the sidebar, switched off for now.
+   To switch it on, delete this line and the closing arrow line below it.
+```{toctree}
+:hidden:
 :caption: Resources
 
-<!--
 resources/index
 resources/ore-geology
 resources/petrology-mineralogy
@@ -84,8 +92,8 @@ resources/geophysics
 resources/remote-sensing-gis
 resources/datasets
 resources/software
--->
 ```
+-->
 
 ```{toctree}
 :hidden:

@@ -63,3 +63,56 @@ a:hover { color: var(--ore-ink); }
 /* Admonition used for "Next workshop" */
 .rst-content .admonition.tip { background: #FBF1E8; }
 .rst-content .admonition.tip .admonition-title { background: var(--ore-core); }
+
+/* ---------- Learning modules: lesson boxes ---------- */
+.rst-content .admonition.ore-overview,
+.rst-content .admonition.ore-challenge,
+.rst-content .admonition.ore-keypoints {
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 6px;
+}
+.rst-content .admonition.ore-overview { background: #EEF0EC; border: 1px solid #D5DAD5; }
+.rst-content .admonition.ore-overview .admonition-title { background: var(--ore-ink); }
+
+.rst-content .admonition.ore-challenge { background: #FBF1E8; border: 1px solid #F0D3BA; }
+.rst-content .admonition.ore-challenge .admonition-title { background: var(--ore-core); }
+
+.rst-content .admonition.ore-keypoints { background: #EAF3EF; border: 1px solid #C9E0D6; }
+.rst-content .admonition.ore-keypoints .admonition-title { background: #2F7D6D; }
+
+.rst-content .admonition .admonition-title::before { display: none; }
+.rst-content .admonition p strong { font-weight: 600; }
+
+/* Solution drop-downs */
+.sd-dropdown { margin-top: 12px; }
+.sd-dropdown .sd-summary-title { font-weight: 600; color: var(--ore-ink); }
+
+/* Code and its printed output */
+.rst-content div[class^="highlight"] { border-radius: 8px; border-color: #D5DAD5; }
+.rst-content .highlight-python .highlight { background: #F6F7F5; }
+.rst-content .highlight-output .highlight { background: #FFFFFF; border-left: 4px solid var(--ore-mantle); }
+.rst-content .highlight-output::before {
+  content: "Output";
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #3C4A4E;
+  padding: 2px 0 4px;
+}
+
+/* Sidebar: make the current module's lessons easy to see */
+.wy-menu-vertical li.toctree-l1.current > a { border-left: 4px solid var(--ore-core); }
+.wy-menu-vertical li.toctree-l2.current > a { background: #E9ECE8; font-weight: 600; }
+
+/* Section labels on module pages that stay out of the sidebar */
+.rst-content p.rubric.ore-rubric, .rst-content h2.rubric.ore-rubric {
+  font-family: "Sora", "IBM Plex Sans", sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 28px 0 12px;
+  color: #404040;
+}

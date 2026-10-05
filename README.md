@@ -14,6 +14,8 @@ into `main`, GitHub builds the site with Sphinx and publishes it automatically.
 | Workshop list | `docs/workshops/index.md` |
 | A new workshop | copy `docs/workshops/_template.md` |
 | Resource lists | `docs/resources/*.md` |
+| Python module lessons | `docs/modules/python-geoscience/*.md` |
+| A new lesson | copy `docs/modules/_lesson-template.md` |
 | Sidebar sections | the `toctree` blocks at the end of `docs/index.md` |
 | Colours and fonts | `docs/_static/custom.css` |
 | Site settings | `docs/conf.py` |
