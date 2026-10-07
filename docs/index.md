@@ -69,13 +69,14 @@ getting-started/join
 
 workshops/index
 ```
-
+<!----
 ```{toctree}
 :hidden:
 :caption: Learning Modules
 
 modules/python-geoscience/index
 ```
+--->
 
 <!-- Resources section of the sidebar, switched off for now.
    To switch it on, delete this line and the closing arrow line below it.
