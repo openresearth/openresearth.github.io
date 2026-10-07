@@ -13,9 +13,9 @@ Each workshop has its own page with slides, recordings and data.
 
 ## Upcoming
 
-| Date | Workshop | Speaker | Topic | Level |
+| Date | Workshop | Level |
 |------|----------|---------|-------|-------|
-| [DD] Oct 2026 | [Introduction to Ore Deposit Models](2026-10-ore-deposit-models.md) | [Speaker name] | Ore Geology | Beginner |
+| [DD] Oct 2026 | [Introduction to Ore Deposit Models](2026-10-ore-deposit-models.md) | Beginner |
 
 
 ## Past sessions
