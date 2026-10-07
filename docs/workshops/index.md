@@ -15,7 +15,7 @@ Each workshop has its own page with slides, recordings and data.
 
 | Date | Workshop | Level |
 |------|----------|---------|
-| To be updated | [Introduction to Ore Deposit Models](python-programming-for-geoscientists.md) | Beginner |
+| To be updated | [Python Programming for Geoscientists](python-programming-for-geoscientists.md) | Beginner |
 
 
 ## Past sessions
