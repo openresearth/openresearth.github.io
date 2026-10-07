@@ -14,8 +14,8 @@ Each workshop has its own page with slides, recordings and data.
 ## Upcoming
 
 | Date | Workshop | Level |
-|------|----------|---------|-------|-------|
-| [DD] Oct 2026 | [Introduction to Ore Deposit Models](2026-10-ore-deposit-models.md) | Beginner |
+|------|----------|---------|
+| To be updated | [Introduction to Ore Deposit Models](python-programming-for-geoscientists.md) | Beginner |
 
 
 ## Past sessions
