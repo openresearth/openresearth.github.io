@@ -38,7 +38,7 @@ code, pre, .rst-content code, .rst-content pre {
 /* Page */
 .wy-nav-content-wrap { background: var(--ore-ground); }
 .wy-nav-content { background: #FFFFFF; max-width: 960px; }
-a, a:visited, .rst-content a:visited { color: var(--ore-link); }
+.rst-content a, .rst-content a:visited { color: var(--ore-link); }
 a:hover { color: var(--ore-ink); }
 .rst-content table.docutils { width: 100%; }
 .rst-content table.docutils td { white-space: normal; }
@@ -116,3 +116,63 @@ a:hover { color: var(--ore-ink); }
   margin: 28px 0 12px;
   color: #404040;
 }
+
+/* ---------- Module-only sidebar menu ---------- */
+.ore-module-nav { padding-bottom: 24px; }
+.ore-module-nav a { display: block; text-decoration: none; }
+.ore-module-back {
+  margin: 4px 16px 6px;
+  padding: 10px 12px;
+  border: 1px solid #3A4C52;
+  border-radius: 8px;
+  color: #D9DFDD !important;
+  font-size: 90%;
+}
+.ore-module-back:hover { background: var(--ore-ink-2); color: #FFFFFF !important; }
+.ore-module-title {
+  padding: 6px 18px 4px 22px;
+  color: #FFFFFF !important;
+  font-family: "Sora", "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 110%;
+  line-height: 1.35;
+}
+.ore-module-title.ore-current { border-left: 4px solid var(--ore-core); padding-left: 18px; }
+.ore-module-lessons, .ore-module-sections { list-style: none; margin: 0; padding: 0; }
+.ore-module-lessons > li > a {
+  padding: 8px 18px 8px 22px;
+  color: #D9DFDD !important;
+}
+.ore-module-lessons > li > a:hover { background: var(--ore-ink-2); }
+.ore-module-lessons > li.ore-current > a {
+  background: #FFFFFF;
+  color: var(--ore-ink) !important;
+  font-weight: 600;
+  border-left: 4px solid var(--ore-core);
+  padding-left: 18px;
+}
+.ore-module-sections { background: #E9ECE8; }
+.ore-module-sections a {
+  padding: 6px 18px 6px 36px;
+  color: #3C4A4E !important;
+  font-size: 90%;
+}
+.ore-module-sections a:hover { background: #DDE2DD; }
+
+/* the theme hides nested lists in its menu; show the current lesson's sections */
+.wy-menu-vertical .ore-module-nav ul.ore-module-sections { display: block; }
+.wy-menu-vertical .ore-module-nav li { display: block; }
+
+/* ---------- Menu links keep the same colour when visited or clicked ---------- */
+.wy-menu-vertical a:visited,
+.wy-menu-vertical a:active,
+.wy-menu-vertical a:focus { color: #D9DFDD; }
+.wy-menu-vertical li.current a:visited,
+.wy-menu-vertical li.current a:active,
+.wy-menu-vertical li.current a:focus { color: #404040; }
+.wy-menu-vertical li.current > a:visited { color: #404040; }
+.wy-menu-vertical a:active { background: var(--ore-ink-2); }
+.wy-menu-vertical li.current a:active { background: #E9ECE8; }
+.ore-module-nav a:active, .ore-module-nav a:focus { background: transparent; }
+.ore-module-lessons > li.ore-current > a:active,
+.ore-module-lessons > li.ore-current > a:focus { background: #FFFFFF; }

@@ -1,0 +1,31 @@
+{#- Pages inside a learning module (docs/modules/<name>/) get their own
+    sidebar menu: a link back to the site, the module title and its lessons.
+    All other pages keep the normal site menu. -#}
+{% extends "!layout.html" %}
+
+{% block menu %}
+  {%- if module_nav %}
+  <div class="ore-module-nav">
+    <a class="ore-module-back" href="{{ module_nav.home }}">&larr; Back to ore home</a>
+    <p class="caption" role="heading"><span class="caption-text">Learning module</span></p>
+    <a class="ore-module-title{% if module_nav.current %} ore-current{% endif %}" href="{{ module_nav.url }}">{{ module_nav.title }}</a>
+    <p class="caption" role="heading"><span class="caption-text">Lessons</span></p>
+    <ul class="ore-module-lessons simple">
+      {%- for lesson in module_nav.lessons %}
+      <li{% if lesson.current %} class="ore-current"{% endif %}>
+        <a href="{{ lesson.url }}"{% if lesson.current %} aria-current="page"{% endif %}>{{ lesson.title }}</a>
+        {%- if lesson.current and lesson.sections %}
+        <ul class="ore-module-sections simple">
+          {%- for section in lesson.sections %}
+          <li><a href="{{ section.url }}">{{ section.title }}</a></li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- else %}
+    {{ super() }}
+  {%- endif %}
+{% endblock %}

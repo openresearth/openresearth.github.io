@@ -53,3 +53,61 @@ copybutton_exclude = ".linenos, .gp, .go"
 
 # Pages that exist but are deliberately left out of the sidebar don't need a warning
 suppress_warnings = ["toc.not_included"]
+
+# -- Separate sidebar menu for learning modules ------------------------------
+# Every page in docs/modules/<name>/ shows a menu with only that module's
+# lessons (taken from the toctree in docs/modules/<name>/index.md).
+# New modules get this menu automatically; nothing to change here.
+templates_path = ["_templates"]
+
+
+def _module_nav(app, pagename, templatename, context, doctree):
+    parts = pagename.split("/")
+    if len(parts) < 3 or parts[0] != "modules":
+        return
+    env = app.builder.env
+    root = f"modules/{parts[1]}/index"
+    if root not in env.titles:
+        return
+
+    def uri(doc):
+        # link to a page; for the page itself use its own file name
+        return (app.builder.get_relative_uri(pagename, doc)
+                or app.builder.get_target_uri(doc).split("/")[-1])
+
+    def sections(doc):
+        # second-level headings (##) of a page, for the current lesson only
+        from docutils import nodes
+        found = []
+        toc = env.tocs.get(doc)
+        if toc is None or not len(toc):
+            return found
+        for lst in toc[0].children:              # the page title's item
+            if isinstance(lst, nodes.bullet_list):  # its list of ## headings
+                for item in lst.children:
+                    ref = next(item.findall(nodes.reference), None)
+                    if ref is not None:
+                        found.append({"title": ref.astext(),
+                                      "url": ref.get("anchorname", "")})
+        return found
+
+    lessons = []
+    for doc in env.toctree_includes.get(root, []):
+        current = doc == pagename
+        lessons.append({
+            "title": env.titles[doc].astext(),
+            "url": uri(doc),
+            "current": current,
+            "sections": sections(doc) if current else [],
+        })
+    context["module_nav"] = {
+        "title": env.titles[root].astext(),
+        "url": uri(root),
+        "current": pagename == root,
+        "home": uri("index"),
+        "lessons": lessons,
+    }
+
+
+def setup(app):
+    app.connect("html-page-context", _module_nav)
