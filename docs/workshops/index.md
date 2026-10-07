@@ -16,8 +16,7 @@ Each workshop has its own page with slides, recordings and data.
 | Date | Workshop | Speaker | Topic | Level |
 |------|----------|---------|-------|-------|
 | [DD] Oct 2026 | [Introduction to Ore Deposit Models](2026-10-ore-deposit-models.md) | [Speaker name] | Ore Geology | Beginner |
-| [DD] Nov 2026 | Python for Geochemical Data | [Speaker name] | Geochemistry | Intermediate |
-| [DD] Dec 2026 | Geological Mapping with QGIS | [Speaker name] | Remote Sensing & GIS | Beginner |
+
 
 ## Past sessions
 
