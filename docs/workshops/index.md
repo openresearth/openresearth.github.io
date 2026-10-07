@@ -15,7 +15,7 @@ Each workshop has its own page with slides, recordings and data.
 
 | Date | Workshop | Speaker | Topic | Level |
 |------|----------|---------|-------|-------|
-| [DD] Oct 2026 | [Python Programming for Geoscientists](python-Programming-for-geoscientists.md) | [Speaker name] | Ore Geology | Beginner |
+| [DD] Oct 2026 | [Programing with Python for Geoscience](2026-10-ore-deposit-models.md) | [Speaker name] | Ore Geology | Beginner |
 | [DD] Nov 2026 | Python for Geochemical Data | [Speaker name] | Geochemistry | Intermediate |
 | [DD] Dec 2026 | Geological Mapping with QGIS | [Speaker name] | Remote Sensing & GIS | Beginner |
 
