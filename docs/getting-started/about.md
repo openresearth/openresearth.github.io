@@ -5,14 +5,14 @@
 ## Goals
 
 - Hold regular online workshops on core and emerging topics in the earth sciences.
-- Keep an up-to-date list of free, open-access textbooks, datasets and software.
-- Publish workshop materials openly so they can be reused in classrooms.
-- Give students and early-career researchers a place to teach and contribute.
+- Workshops will be limited within small group of students
+- A token registration fees are required to ensure participation. The participation fee will be refunded once you complete the course. 
 
-## Who runs it
 
-[Names of organisers and their institutes]
+## Instructors
+
+Jyotirmoy Paul
 
 ## Contact
 
-[Email address] · [GitHub](https://github.com/openresearth)
+[openresearth@gmail.com] · [webpage](openresearth.github.io)
