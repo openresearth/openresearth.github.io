@@ -20,31 +20,27 @@
 [Workshop details](workshops/2026-10-ore-deposit-models.md) · [Register](https://forms.gle/your-form-link)
 :::
 
-# Empowering Earth Science Through Computational Literacy
 
 ## Our Motivation
 
-We believe that computational literacy is an essential skill for the next generation of Earth scientists. Whether you're a student, researcher, or simply an enthusiast, understanding how to use programming can open new possibilities for exploring, analyzing, and understanding our planet.
+**Computational** literacy is an essential skill for the Earth scientists. 
 
-Our initiative aims to make computational skills accessible to the Earth Science community through **small-group, hands-on online workshops** designed specifically for learners in the field.
 
-## Learn Together, Grow Together
+This initiative aims to make computational skills accessible to the Earth Science community through **small-group, hands-on online workshops** designed specifically for learners in the field.
 
-Each workshop is limited to a **maximum of seven participants**, creating a supportive learning environment where everyone gets the opportunity to engage, ask questions, and develop practical programming skills.
+## Worhshop plan
 
-Our modules focus on the fundamental computational tools and techniques that are useful for Earth Science studies and research.
+Each workshop is limited to a **maximum of 7 participants**, creating a supportive learning environment where everyone gets the opportunity to engage, ask questions, and develop practical programming skills.
 
-## Knowledge, Not Profit
 
-We believe that learning should be driven by curiosity and the willingness to share knowledge, not by profit.
+## Refundable workshop
 
 To encourage commitment and ensure participation, a small payment is required when registering for a workshop. **Complete all the workshop modules, and your participation fee will be refunded in full (100%).**
 
-This initiative is not about making money. It is about building a community of Earth Science learners, sharing knowledge, and helping more people develop the computational skills they need to explore our planet.
+The initiative is not not for making profitable business. It is about building a community of Earth Science learners, sharing knowledge, and helping more people develop the computational skills.
 
-## Learn. Code. Explore Earth.
 
-Engage with us in making computational literacy more accessible to everyone in the Earth Science community.
+
 
 <!----
 ## Browse resources

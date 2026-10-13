@@ -1,7 +1,6 @@
 # About ore
 
-**ore (Open Resources for Earth Sciences)** is a volunteer-run initiative to make
-geoscience learning free and accessible to students everywhere.
+**ore (Open Resources for Earth Sciences)** is a volunteer-run initiative to make geoscience learning free and accessible to students everywhere.
 
 ## Goals
 
