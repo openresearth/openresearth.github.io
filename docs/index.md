@@ -7,7 +7,7 @@
 # Open Resources for Earth Sciences
 
 ```{raw} html
-<p class="ore-tagline"> Open resources · Community built · Free </p>
+<p class="ore-tagline"> Open resources · Community built · Earth Sciences </p>
 ```
 
 **ore** is a community project that aims to educate compulational literacy amongst earth scientists.
@@ -20,10 +20,33 @@
 [Workshop details](workshops/2026-10-ore-deposit-models.md) · [Register](https://forms.gle/your-form-link)
 :::
 
-## Motivation
+# Empowering Earth Science Through Computational Literacy
 
+## Our Motivation
 
+We believe that computational literacy is an essential skill for the next generation of Earth scientists. Whether you're a student, researcher, or simply an enthusiast, understanding how to use programming can open new possibilities for exploring, analyzing, and understanding our planet.
 
+Our initiative aims to make computational skills accessible to the Earth Science community through **small-group, hands-on online workshops** designed specifically for learners in the field.
+
+## Learn Together, Grow Together
+
+Each workshop is limited to a **maximum of seven participants**, creating a supportive learning environment where everyone gets the opportunity to engage, ask questions, and develop practical programming skills.
+
+Our modules focus on the fundamental computational tools and techniques that are useful for Earth Science studies and research.
+
+## Knowledge, Not Profit
+
+We believe that learning should be driven by curiosity and the willingness to share knowledge, not by profit.
+
+To encourage commitment and ensure participation, a small payment is required when registering for a workshop. **Complete all the workshop modules, and your participation fee will be refunded in full (100%).**
+
+This initiative is not about making money. It is about building a community of Earth Science learners, sharing knowledge, and helping more people develop the computational skills they need to explore our planet.
+
+## Learn. Code. Explore Earth.
+
+Engage with us in making computational literacy more accessible to everyone in the Earth Science community.
+
+<!----
 ## Browse resources
 
 ::::{grid} 1 2 2 4
@@ -38,7 +61,7 @@ Basic programming with python, numpy, matplotlib
 
 ::::
 
-
+--->
 ## Contributing
 
 Found a great open resource, or want to teach a session? Read the
