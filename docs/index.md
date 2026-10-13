@@ -21,19 +21,19 @@
 :::
 
 
-## Our Motivation
+### Motivation
 
 **Computational** literacy is an essential skill for the Earth scientists. 
 
 
 This initiative aims to make computational skills accessible to the Earth Science community through **small-group, hands-on online workshops** designed specifically for learners in the field.
 
-## Worhshop plan
+### Worhshop plan
 
 Each workshop is limited to a **maximum of 7 participants**, creating a supportive learning environment where everyone gets the opportunity to engage, ask questions, and develop practical programming skills.
 
 
-## Refundable workshop
+### Refundable workshop
 
 To encourage commitment and ensure participation, a small payment is required when registering for a workshop. **Complete all the workshop modules, and your participation fee will be refunded in full (100%).**
 
@@ -57,7 +57,7 @@ Basic programming with python, numpy, matplotlib
 
 ::::
 
---->
+
 ## Contributing
 
 Found a great open resource, or want to teach a session? Read the
@@ -65,10 +65,10 @@ Found a great open resource, or want to teach a session? Read the
 [suggest a resource](https://github.com/openresearth/openresearth.github.io/issues/new?template=suggest-resource.md)
 or [propose a workshop](https://github.com/openresearth/openresearth.github.io/issues/new?template=propose-workshop.md)
 without editing any files.
+--->
+### Contact
 
-## Contact
-
-ore is run by [organisers]. Email: [email address]
+Email: [openresearth@gmail.com]
 
 ## License
 
